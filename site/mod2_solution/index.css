@@ -1,0 +1,179 @@
+body{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.75em;
+}
+section{
+    background-color: gray;
+    height: fit-content;
+    width: 30%;
+    float: left;   
+    margin-right: 15px;  
+    margin-bottom: 15px;
+    padding: 10px; 
+    border: 1px solid black;
+    padding-bottom: -30px;
+    
+}
+h5{
+    width: 28%;
+    font-size: 1.25em;
+    border: 1px solid black;
+    position: relative;
+    left: 38.6%;
+    top: -10px;
+    margin-top: 0; 
+    
+
+}
+.h5Chicken{
+    background-color: blue;
+}
+.h5Beef{
+    color: white;
+    background-color: red;
+}
+.h5Sushi{
+    background-color: green;
+    
+}
+
+
+
+@media (max-width: 767px) {
+    section{
+        width: 97%;
+        clear: both;
+    }
+    h5{
+        
+        position: relative;
+        left: 38%;
+        top: -10px;
+         
+        
+    
+    }
+    @media (min-width: 585px) and (max-width: 766px) {
+        h5{
+        
+            position: relative;
+            left: 37.55%;
+            top: -10px;
+        }
+    }
+    @media (min-width: 747px) and (max-width: 767px) {
+        h5{
+        
+            position: relative;
+            left: 37.55%;
+            top: -10px;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 769px) {
+    section{
+        height: fit-content;
+        width: 94%;
+    }
+    .chicken{
+        width: 44.5%;
+
+    }
+    .beef{
+        width: 44.5%;
+    }
+    .sushi{
+        width: 85%;
+        height: fit-content;
+    }
+    h5{
+        
+        position: relative;
+        left: 38%;
+        top: -10px;
+    }
+}
+@media (min-width: 864px) and (max-width:991px) {
+    .h5Chicken{
+        position: relative;
+        left: 38.5%;
+    }
+    .h5Beef{
+        position: relative;
+        left: 38.5%;
+    }
+    .h5Sushi{
+        position: relative;
+        left: 37%;
+    }
+}
+@media (min-width:770px) and (max-width: 991px) {
+    h5{
+        
+        position: relative;
+        left: 39%;
+        top: -10px;
+    }
+    
+    section{
+        height: fit-content;
+        width: 94.5%;
+    }
+    .chicken{
+        width: 45%;
+        left: 40%;
+
+    }
+    .beef{
+        width: 45%;
+    }
+    .sushi{
+        
+        width: 80%;
+        height: fit-content;
+       
+    }
+   
+    .h5Sushi{
+        width: 20%;
+        position: relative;
+        left: 41.3%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    section{
+    background-color: gray;
+    height: fit-content;
+    width: 29%;
+    float: left; 
+    margin-right: 15px; 
+    margin-bottom: 15px; 
+    padding: 10px; 
+    
+    
+}
+h5{
+     width: 28%;   
+    position: relative;
+    left: 39.2%;
+    top: -10px;
+}
+
+}
+
+
+
