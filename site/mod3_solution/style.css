@@ -1,0 +1,24 @@
+body{
+	margin: 0
+	padding: 0;
+	font-size: 16px;
+	color: black
+}
+#header-nav{
+	background-color: gray;
+	font-size: 2em;
+	border-radius: 0;
+	border: 0;
+}
+ul{
+	float: right;
+}
+#gray{
+
+	background-color: gray;
+
+}
+@media (max-width: 768px;) {
+	margin-left: 10px;
+	margin-right: 10px
+}
