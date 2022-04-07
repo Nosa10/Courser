@@ -28,6 +28,7 @@ ul{
 	
 ul{
 	float: right;
+	margin: auto;
 }
 .nav-link{
 	color: #ffffff;
@@ -42,4 +43,7 @@ a>.nav-link{
 }
 a>nav-link:hover{
 	color: #00000
+}
+.nav-item a:hover, .nav-item a:focus{
+	color: black;
 }
