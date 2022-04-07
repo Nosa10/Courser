@@ -19,6 +19,27 @@ ul{
 
 }
 @media (max-width: 768px;) {
-	margin-left: 10px;
-	margin-right: 10px
+	#gray{
+		margin-left: 10px;
+	    margin-right: 10px
+}
+
+}
+	
+ul{
+	float: right;
+}
+.nav-link{
+	color: #ffffff;
+}
+span.navbar-brand{
+	font-size: 35px;
+	color: #00000
+}
+
+a>.nav-link{
+	color: #ffffff
+}
+a>nav-link:hover{
+	color: #00000
 }
